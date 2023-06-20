@@ -22,8 +22,8 @@ const Contact = () => {
       e.preventDefault();
       setLoading(true);
 
-      emailjs.send(process.env.SERVICE_ID, 
-      process.env.TEMPLATE_ID,
+      emailjs.send(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, 
+      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Riley Dou',
@@ -31,7 +31,7 @@ const Contact = () => {
         to_email: 'riley.dou@nyu.edu',
         message: form.message,
       },
-      process.env.PUBLIC_KEY
+      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setLoading(false);
