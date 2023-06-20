@@ -22,16 +22,16 @@ const Contact = () => {
       e.preventDefault();
       setLoading(true);
 
-      emailjs.send('service_f32rnqd', 
-      'template_17wq817',
+      emailjs.send(process.env.SERVICE_ID, 
+      process.env.TEMPLATE_ID,
       {
         from_name: form.name,
-        to_name: 'Riley',
+        to_name: 'Riley Dou',
         from_email: form.email,
         to_email: 'riley.dou@nyu.edu',
         message: form.message,
       },
-      'ix6kizc9AWk4G5lTU'
+      process.env.PUBLIC_KEY
       )
       .then(() => {
         setLoading(false);
