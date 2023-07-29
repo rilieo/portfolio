@@ -81,8 +81,8 @@ import {
       iconBg: "#383E56",
       date: "June 2023-Present",
       points: [
-        "Optimized the exchange of information between multiple servers by using protocol buffers",
-        "Integrated gRPC with protocol buffers to facilitate easy client-server communication across multiple languages",
+        "Designed a parameter pushing workflow that allows arbitrary data to be added to a Redis database via Python script and Retool GUI",
+        "Implemented a Redis pub/sub model to update downstream on changes to Redis database",
       ],
     },
   ];

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import { SwabluCanvas } from './canvas';
 
 const Hero = () => {
 
@@ -15,19 +15,13 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm 
+        <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm 
             <span className="text-[#915EFF]"> Riley</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user interfaces <br className='sm:block hidden' />
-            and web applications
-          </p>
-        </div>
+        </h1>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <SwabluCanvas />
 
       <div className="absolute xs:bottom-10 
       bottom-32 w-full flex justify-center items-center">
@@ -51,4 +45,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;

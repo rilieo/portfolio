@@ -4,8 +4,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+const Swablu = ({ isMobile }) => {
+  const swablu = useGLTF("./desktop_pc/scene.gltf");
 
   const sizes = {
     width: window.innerWidth,
@@ -25,16 +25,16 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
-        object={computer.scene}
+        object={swablu.scene}
         scale={isMobile ? 1.75 : 2.5}
-        position={isMobile ? [1.25, -2.25, 1] : [3.5, -2.75, -0.5]}
+        position={isMobile ? [1.25, -1.9, 1] : [3.5, -1.9, -0.5]}
         rotation={[0.5, 0.5, 0]}
       />
     </mesh>
   );
 };
 
-const ComputersCanvas = () => {
+const SwabluCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -73,7 +73,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Swablu isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
@@ -81,4 +81,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default SwabluCanvas;
