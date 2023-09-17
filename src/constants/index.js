@@ -78,12 +78,22 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "3Arb Capital",
-      iconBg: "#383E56",
+      iconBg: "#800080",
       date: "June 2023-Present",
       points: [
         "Designed a parameter pushing workflow that allows arbitrary data to be added to a Redis database via Python script and Retool GUI",
         "Implemented a Redis pub/sub model to update downstream on changes to Redis database",
       ],
+    },
+    {
+      title: "General Engineering Teaching Assistant",
+      company_name: "NYU Tandon School of Engineering",
+      iconBg: "#800080",
+      date: "August 2023-Present",
+      points: [
+        "Provided guidance and support to students during lab sessions, fostering an environment conducive to learning",
+        "Clarified concepts, troubleshooted technical issues, and offered assistance with experiments or projects related to Arduino programming, digital logic, etc"
+      ]
     },
   ];
   
