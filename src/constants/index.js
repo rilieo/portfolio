@@ -76,13 +76,33 @@ import {
   
   const experiences = [
     {
+      title: "Developer",
+      company_name: "HackNYU Organizing Team",
+      iconBg: "#800080",
+      date: "September 2023-Present",
+      points: [
+        "Developed dynamic and user-friendly websites, serving as the primary online platform for 1000+ hackers",
+        "Collaborated closely with UX/UI designers to create an intuitive and visually appealing interface"
+      ]
+    },
+    {
       title: "Software Engineer Intern",
       company_name: "3Arb Capital",
       iconBg: "#800080",
-      date: "June 2023-Present",
+      date: "June 2023-August 2023",
       points: [
         "Designed a parameter pushing workflow that allows arbitrary data to be added to a Redis database via Python script and Retool GUI",
         "Implemented a Redis pub/sub model to update downstream on changes to Redis database",
+      ],
+    },
+    {
+      title: "Communications Manager/Developer",
+      company_name: "BUGS@NYU",
+      iconBg: "#800080",
+      date: "January 2023-Present",
+      points: [
+        "Contributed to the club's open-source projects through informative Markdown files detailing NYU's CS community",
+        "Promoted open source through targeted social media marketing to boost engagement in open source projects"
       ],
     },
     {

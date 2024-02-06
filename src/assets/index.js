@@ -15,7 +15,7 @@ import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 
 import commuter from "./commuterClock.png";
-import music from "./musicPlayer.png";
+import music from "./musicplayer.png";
 
 export {
   logo,
