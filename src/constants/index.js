@@ -139,7 +139,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "google api",
+          name: "firestore",
           color: "pink-text-gradient",
         },
       ],
