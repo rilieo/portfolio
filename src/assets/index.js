@@ -13,9 +13,11 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
+import swift from "./tech/swift.png";
 
 import commuter from "./commuterClock.png";
 import music from "./musicplayer.png";
+import map from "./map.png";
 
 export {
   logo,
@@ -32,6 +34,8 @@ export {
   reactjs,
   threejs,
   python,
+  swift,
   commuter,
-  music
+  music,
+  map
 };

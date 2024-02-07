@@ -9,8 +9,10 @@ import {
     git,
     threejs,
     python,
+    swift,
     commuter,
-    music
+    music,
+    map
   } from "../assets";
   
   export const navLinks = [
@@ -71,7 +73,12 @@ import {
     {
       name: "python",
       icon: python,
+    },
+    {
+      name: "swift",
+      icon: swift,
     }
+
   ];
   
   const experiences = [
@@ -118,6 +125,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "NYC Bathrooms",
+      description:
+        "IOS 17 app that tracks the bathrooms in NYC using the new MapKit API",
+      tags: [
+        {
+          name: "swift",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mapkit",
+          color: "green-text-gradient",
+        },
+        {
+          name: "google api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: map,
+      source_code_link: "https://github.com/rilieo/nyc-bathrooms",
+    },
     {
       name: "Commuter Clock",
       description:
