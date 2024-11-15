@@ -18,6 +18,7 @@ import swift from "./tech/swift.png";
 import commuter from "./commuterClock.png";
 import music from "./musicplayer.png";
 import map from "./map.png";
+import yourway from "./yourway.png";
 
 export {
   logo,
@@ -37,5 +38,6 @@ export {
   swift,
   commuter,
   music,
-  map
+  map,
+  yourway
 };

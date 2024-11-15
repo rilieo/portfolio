@@ -12,7 +12,8 @@ import {
     swift,
     commuter,
     music,
-    map
+    map,
+    yourway
   } from "../assets";
   
   export const navLinks = [
@@ -25,9 +26,13 @@ import {
       title: "Work",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "projects",
+      title: "Projects",
     },
+    // {
+    //   id: "contact",
+    //   title: "Contact",
+    // },
   ];
   
   const services = [
@@ -78,18 +83,38 @@ import {
       name: "swift",
       icon: swift,
     }
-
   ];
   
   const experiences = [
     {
-      title: "Developer",
+      title: "Software Engineer Intern",
+      company_name: "3Arb Capital",
+      iconBg: "#800080",
+      date: "June 2024-August 2024",
+      points: [
+        "Preprocessed market trade data with pandas and visualized results in Streamlit to identify profitable features",
+        "Automated coin trading using Dagster by creating a Python script to generate YAML files, streamlining trade setup"
+      ]
+    },
+    {
+      title: "Tech Director",
       company_name: "HackNYU Organizing Team",
       iconBg: "#800080",
       date: "September 2023-Present",
       points: [
         "Developed dynamic and user-friendly websites, serving as the primary online platform for 1000+ hackers",
-        "Collaborated closely with UX/UI designers to create an intuitive and visually appealing interface"
+        "Created a Discord bot using discord.js to verify NYU students, send announcements, and manage role access",
+        "Implemented GitHub Actions workflow to deploy PR previews, enabling efficient live testing and streamlined code review process"
+      ]
+    },
+    {
+      title: "General Engineering Teaching Assistant",
+      company_name: "NYU Tandon School of Engineering",
+      iconBg: "#800080",
+      date: "August 2023-Present",
+      points: [
+        "Provided guidance and support to at least 15 students during lab sessions, fostering an environment conducive to learning",
+        "Clarified concepts, troubleshooted technical issues, and offered assistance with experiments or projects related to Arduino programming, digital logic, etc"
       ]
     },
     {
@@ -103,7 +128,7 @@ import {
       ],
     },
     {
-      title: "Communications Manager/Developer",
+      title: "Communications Manager",
       company_name: "BUGS@NYU",
       iconBg: "#800080",
       date: "January 2023-Present",
@@ -111,20 +136,31 @@ import {
         "Contributed to the club's open-source projects through informative Markdown files detailing NYU's CS community",
         "Promoted open source through targeted social media marketing to boost engagement in open source projects"
       ],
-    },
-    {
-      title: "General Engineering Teaching Assistant",
-      company_name: "NYU Tandon School of Engineering",
-      iconBg: "#800080",
-      date: "August 2023-Present",
-      points: [
-        "Provided guidance and support to students during lab sessions, fostering an environment conducive to learning",
-        "Clarified concepts, troubleshooted technical issues, and offered assistance with experiments or projects related to Arduino programming, digital logic, etc"
-      ]
-    },
+    }
   ];
   
   const projects = [
+    {
+      name: "Yourway",
+      description:
+        "Yourway is designed to fit your schedule, tracking the subway lines that you ride the most. The app allows you to add subway lines in order to easily view schedules and updates",
+      tags: [
+        {
+          name: "swift",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MTA API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: yourway,
+      source_code_link: "https://github.com/rilieo/yourway"
+    },
     {
       name: "NYC Bathrooms",
       description:
