@@ -11,9 +11,10 @@ import {
     python,
     swift,
     commuter,
-    music,
     map,
-    yourway
+    oogle,
+    yourway,
+    ts
   } from "../assets";
   
   export const navLinks = [
@@ -29,10 +30,6 @@ import {
       id: "projects",
       title: "Projects",
     },
-    // {
-    //   id: "contact",
-    //   title: "Contact",
-    // },
   ];
   
   const services = [
@@ -58,6 +55,10 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: ts
     },
     {
       name: "React JS",
@@ -92,8 +93,9 @@ import {
       iconBg: "#800080",
       date: "June 2024-August 2024",
       points: [
-        "Preprocessed market trade data with pandas and visualized results in Streamlit to identify profitable features",
-        "Automated coin trading using Dagster by creating a Python script to generate YAML files, streamlining trade setup"
+        "Automated crypto trading by using Dagster and Python to generate YAML files, reducing trade setup time by 80%",
+        "Developed data pipelines for market trade data and used Streamlit to identify patterns, increasing profit by 10%",
+        "Supported migration from Protobuf to JSON, saving 10+ man-hours in manual rebuilds and dependency upgrades"
       ]
     },
     {
@@ -102,9 +104,9 @@ import {
       iconBg: "#800080",
       date: "September 2023-Present",
       points: [
-        "Developed dynamic and user-friendly websites, serving as the primary online platform for 1000+ hackers",
-        "Created a Discord bot using discord.js to verify NYU students, send announcements, and manage role access",
-        "Implemented GitHub Actions workflow to deploy PR previews, enabling efficient live testing and streamlined code review process"
+        "Led a team of 5 and oversaw the development of HackNYU’s main platform, serving 1,000+ monthly active users",
+        "Implemented GitHub Actions to deploy PR previews, accelerating live testing by 40% and streamlining code reviews",
+        "Deployed websites and a Discord bot to a DigitalOcean virtual machine and ensured 99% uptime for all services"
       ]
     },
     {
@@ -123,27 +125,50 @@ import {
       iconBg: "#800080",
       date: "June 2023-August 2023",
       points: [
-        "Designed a parameter pushing workflow that allows arbitrary data to be added to a Redis database via Python script and Retool GUI",
-        "Implemented a Redis pub/sub model to update downstream on changes to Redis database",
+        "Designed a Redis Python client workflow to handle 500+ real-time updates, saving 20+ man-hours in record updates",
+        "Built Retool dashboards to display, edit, and sync data for 500+ records, reducing data management time by 20%",
+        "Streamlined the deployment process using Docker, cutting deployment times by 30%"
       ],
     },
     {
-      title: "Communications Manager",
+      title: "Communications Manager, Developer",
       company_name: "BUGS@NYU",
       iconBg: "#800080",
       date: "January 2023-Present",
       points: [
-        "Contributed to the club's open-source projects through informative Markdown files detailing NYU's CS community",
-        "Promoted open source through targeted social media marketing to boost engagement in open source projects"
+        "Authored Markdown docs on NYU’s CS community, improving accessibility and engagement among 100+ members",
+        "Orchestrated targeted social media campaigns, boosting club membership by 25%",
+        "Designed graphics and promotional content, increasing event RSVPs by 30% and improving brand visibility"
       ],
     }
   ];
   
   const projects = [
     {
+      name: "Oogle Unphotos",
+      description:
+        "Oogle Unphoto is a web app that stores the photos that you upload...but life isn't always fair",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: oogle,
+      source_code_link: "https://github.com/rilieo/oogle-unphotos"
+    },
+    {
       name: "Yourway",
       description:
-        "Yourway is designed to fit your schedule, tracking the subway lines that you ride the most. The app allows you to add subway lines in order to easily view schedules and updates",
+        "Yourway is designed to fit your schedule, tracking the subway lines that you ride the most",
       tags: [
         {
           name: "swift",
@@ -164,7 +189,7 @@ import {
     {
       name: "NYC Bathrooms",
       description:
-        "IOS 17 app that tracks the bathrooms in NYC using the new MapKit API",
+        "IOS 17 app that tracks the bathrooms in NYC using MapKit",
       tags: [
         {
           name: "swift",
@@ -202,28 +227,7 @@ import {
       ],
       image: commuter,
       source_code_link: "https://github.com/rilieo/commuter-clock-web",
-    },
-    {
-      name: "Music Player",
-      description:
-        "Web application that enables users to play selected songs with a personalized background",
-      tags: [
-        {
-          name: "html",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: music,
-      source_code_link: "https://github.com/rilieo/music-player",
-    },
+    }
   ];
   
   export { services, technologies, experiences, projects };

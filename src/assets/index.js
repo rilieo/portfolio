@@ -14,10 +14,11 @@ import reactjs from "./tech/reactjs.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import swift from "./tech/swift.png";
+import ts from "./tech/typescript.png";
 
 import commuter from "./commuterClock.png";
-import music from "./musicplayer.png";
 import map from "./map.png";
+import oogle from "./oogle.png";
 import yourway from "./yourway.png";
 
 export {
@@ -36,8 +37,9 @@ export {
   threejs,
   python,
   swift,
+  ts,
   commuter,
-  music,
   map,
+  oogle,
   yourway
 };
