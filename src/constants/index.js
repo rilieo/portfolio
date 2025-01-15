@@ -127,7 +127,7 @@ import {
       points: [
         "Supported migration from Protobuf to JSON, reducing code maintenance efforts and debugging times by 60%",
         "Designed a Redis Python workflow to handle real-time JSON updates and increase flexibility in dynamic data handling",
-        "Streamlined the deployment process using Docker, cutting deployment times by 30%"
+        "Optimized the deployment of a Retool app with Docker, reducing deployment times by 30%"
       ],
     },
     {
@@ -160,6 +160,10 @@ import {
         {
           name: "mongodb",
           color: "pink-text-gradient",
+        },
+        {
+          name: "ajax",
+          color: "orange-text-gradient",
         },
       ],
       image: oogle,
