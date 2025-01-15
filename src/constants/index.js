@@ -93,9 +93,9 @@ import {
       iconBg: "#800080",
       date: "June 2024-August 2024",
       points: [
-        "Automated crypto trading by using Dagster and Python to generate YAML files, reducing trade setup time by 80%",
-        "Developed data pipelines for market trade data and used Streamlit to identify patterns, increasing profit by 10%",
-        "Supported migration from Protobuf to JSON, saving 10+ man-hours in manual rebuilds and dependency upgrades"
+        "Automated crypto trading by using Dagster and Python to generate YAML files, reducing market onboarding time by 20%",
+        "Developed data pipelines for market trade data and used Streamlit to identity patterns for optimal buy and sell times",
+        "Refactored Protobuf enums to Python strings, saving 10+ hours in manual code edits and dependency upgrades"
       ]
     },
     {
@@ -125,8 +125,8 @@ import {
       iconBg: "#800080",
       date: "June 2023-August 2023",
       points: [
-        "Designed a Redis Python client workflow to handle 500+ real-time updates, saving 20+ man-hours in record updates",
-        "Built Retool dashboards to display, edit, and sync data for 500+ records, reducing data management time by 20%",
+        "Supported migration from Protobuf to JSON, reducing code maintenance efforts and debugging times by 60%",
+        "Designed a Redis Python workflow to handle real-time JSON updates and increase flexibility in dynamic data handling",
         "Streamlined the deployment process using Docker, cutting deployment times by 30%"
       ],
     },
