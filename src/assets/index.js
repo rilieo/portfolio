@@ -17,6 +17,7 @@ import swift from "./tech/swift.png";
 import ts from "./tech/typescript.png";
 
 import commuter from "./commuterClock.png";
+import crunch from "./crunch.png";
 import map from "./map.png";
 import oogle from "./oogle.png";
 import yourway from "./yourway.png";
@@ -39,6 +40,7 @@ export {
   swift,
   ts,
   commuter,
+  crunch,
   map,
   oogle,
   yourway

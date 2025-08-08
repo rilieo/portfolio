@@ -43,9 +43,9 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a student at New York University, studying Math and Computer Science at
-        Tandon School of Engineering. I have experience with Python, C++, JavaScript, HTML/CSS,
-        as well as frameworks such as React and react-bootstrap.
+        I'm a student at New York University, studying Computer Science at
+        Tandon School of Engineering. I have experience with Python, TypeScript, and Swift
+        as well as frameworks such as React, React Native, and TailwindCSS.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
