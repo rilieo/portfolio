@@ -16,9 +16,9 @@ const About = () => {
         <h2 className="font-dokdo text-4xl md:text-6xl">about me</h2>
       </div>
 
-      <p className="font-dongle text-2xl max-w-3xl p-5">
+      <p className="font-dongle text-2xl max-w-3xl pt-5 px-5">
         i was born in texas, but i call new york my second home!
-        i currently work at capital one as a software engineer associate.
+        i currently work at capital one as an associate software engineer.
 
         i love rock climbing, skiing, and dancing. i also enjoy photography and crocheting :)
       </p>

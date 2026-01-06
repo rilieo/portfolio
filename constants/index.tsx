@@ -9,6 +9,8 @@ import eight from "@/public/eight.png";
 import nine from "@/public/nine.png";
 import about from "@/public/about.png";
 import hi from "@/public/hi.png";
+import me from "@/public/me_ski.png";
+import path from "@/public/path.png";
 import ski from "@/public/ski.png";
 
 import { StaticImageData } from "next/image";
@@ -24,11 +26,13 @@ export const favImages: ImageData[] = [
     [six, "geese and alex"],
     [seven, "me!"],
     [eight, "snow in nyc"],
-    [nine, "like a moth attracted to the flame"],
+    [nine, "like a moth attracted to a flame"],
 ]
 
 export {
     about,
     hi,
+    me,
+    path,
     ski,
 }

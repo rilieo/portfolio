@@ -13,7 +13,7 @@ export const dongle = Dongle({
 })
 
 export const metadata: Metadata = {
-  title: "Riley",
+  title: "Riley Dou",
   description: "about me!",
 };
 
