@@ -5,7 +5,7 @@ import Down from "@/sections/transition";
 
 export default function Page() {
   return (
-    <div className="flex flex-col justify-center items-center gap-10">
+    <div className="flex flex-col justify-center items-center gap-y-10">
       <Home />
       <About />
       <Down />

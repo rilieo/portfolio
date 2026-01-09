@@ -4,13 +4,11 @@
 import { motion } from "motion/react";
 import React from "react";
 
-
 type FadeInWhenVisibleProps = {
   children: React.ReactNode;
   style: string;
   delay?: number;
 };
-
 
 export const FadeInWhenVisible = ({ children, style, delay = 0}: FadeInWhenVisibleProps) => {
   return (

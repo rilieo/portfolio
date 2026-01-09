@@ -15,19 +15,19 @@ const Camera = () => {
   };
 
   return (
-    <div className="relative flex w-150 md:w-200 p-2">
+  <div className="relative max-w-160">
       <img
         src={favImages[index][0].src}
         alt={favImages[index][1]}
+        className="w-full"
       />
-
       <button
         onClick={handleIncrement}
-        className="absolute bg-transparent w-[2%] h-[14%] right-[29%] top-[55%] hover:cursor-pointer"
+        className="absolute bg-transparent w-[4%] h-[20.5%] right-[14%] top-[55%] rounded-tr-full rounded-br-full hover:cursor-pointer"
       />
       <button
         onClick={handleDecrement}
-        className="absolute bg-transparent w-[2%] h-[14%] right-[34%] top-[55%] hover:cursor-pointer"
+        className="absolute bg-transparent w-[4%] h-[20.5%] right-[23%] top-[55%] rounded-tl-full rounded-bl-full hover:cursor-pointer"
       />
     </div>
   );

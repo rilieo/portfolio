@@ -6,7 +6,6 @@ import five from "@/public/five.png";
 import six from "@/public/six.png";
 import seven from "@/public/seven.png";
 import eight from "@/public/eight.png";
-import nine from "@/public/nine.png";
 import about from "@/public/about.png";
 import hi from "@/public/hi.png";
 import me from "@/public/me_ski.png";
@@ -26,7 +25,6 @@ export const favImages: ImageData[] = [
     [six, "geese and alex"],
     [seven, "me!"],
     [eight, "snow in nyc"],
-    [nine, "like a moth attracted to a flame"],
 ]
 
 export {
